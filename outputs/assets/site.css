@@ -88,10 +88,11 @@ button,a{touch-action:manipulation}
  .recognition-list article p{grid-column:1}
 }
 
-/* Homepage portrait: preserve the supplied 2:3 photo on every viewport */
-.portrait-frame{box-sizing:border-box;width:min(100%,414px);height:auto;min-height:0;aspect-ratio:2/3}
+/* Homepage portrait: architectural arched window frame */
+.portrait-frame{box-sizing:border-box;width:min(100%,414px);height:auto;min-height:0;aspect-ratio:2/3;border:1px solid #101a16;border-radius:50% 50% 0 0 / 33.333% 33.333% 0 0;background:transparent;overflow:hidden}
 .portrait-frame:after{display:none}
-.portrait-photo{position:relative;z-index:1;display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+.portrait-photo{position:relative;z-index:1;display:block;width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:inherit}
 @media(max-width:900px){.portrait-frame{width:min(100%,390px);height:auto;min-height:0;aspect-ratio:2/3}}
 @media(max-width:600px){.portrait-frame{width:min(100%,330px);height:auto;min-height:0;aspect-ratio:2/3}}
 @media(min-width:901px) and (max-height:850px){.hero{height:auto;min-height:0;overflow:visible;padding-top:38px;padding-bottom:48px}.portrait-frame{width:min(100%,370px)}}
+
