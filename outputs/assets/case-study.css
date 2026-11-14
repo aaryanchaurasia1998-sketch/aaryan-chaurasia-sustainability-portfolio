@@ -587,6 +587,7 @@
 @media(min-width:901px) and (max-height:900px){.esg-report-case .report-graphic{gap:10px;padding:14px}.esg-report-case .report-graphic-heading{padding-bottom:9px}.esg-report-case .report-standard-block{min-height:95px;padding:12px}.esg-report-case .report-why{padding:12px}.esg-report-case .report-why h3{margin:5px 0 8px}.esg-report-case .reporting-evidence-flow{padding:9px}.esg-report-case .report-illustrative-note{font-size:9px}.esg-report-case .ir-content-flow{gap:9px}.esg-report-case .ir-value-node{padding:10px}.esg-report-case .ir-capitals-grid article{min-height:47px;padding:7px 9px}.esg-report-case .ir-gri-ribbon{padding:9px}.esg-report-case .brsr-cycle article{min-height:72px;padding:8px}.esg-report-case .brsr-structure{padding:12px}.esg-report-case .brsr-sections article{padding:9px}}
 @media(max-width:820px){.esg-report-case .esg-report-graphics{min-height:460px}.esg-report-case .report-graphic{min-height:440px}.esg-report-case .report-graphic-heading h2{font-size:30px}}
 @media(max-width:560px){.esg-report-case .esg-report-graphics{min-height:0}.esg-report-case .report-graphic{min-height:0;padding:17px;gap:14px}.esg-report-case .report-standard-pair{grid-template-columns:1fr}.esg-report-case .report-standard-join{height:12px;font-size:20px}.esg-report-case .report-standard-block{min-height:0}.esg-report-case .report-why-grid{grid-template-columns:1fr}.esg-report-case .reporting-evidence-flow{grid-template-columns:1fr;gap:5px}.esg-report-case .reporting-evidence-flow i{transform:rotate(90deg)}.esg-report-case .ir-driver-row{gap:6px;font-size:8px}.esg-report-case .ir-capitals-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.esg-report-case .ir-gri-ribbon{flex-wrap:wrap;font-size:8px}.esg-report-case .brsr-cycle{grid-template-columns:1fr}.esg-report-case .brsr-cycle article{min-height:0}.esg-report-case .brsr-cycle>i{transform:rotate(90deg);text-align:center}.esg-report-case .brsr-sections{grid-template-columns:1fr}.esg-report-case .brsr-structure-title{flex-direction:column}}
+@media(max-width:560px){.esg-report-case .ir-content-flow,.esg-report-case .brsr-cycle,.esg-report-case .brsr-sections{grid-template-columns:minmax(0,1fr)}.esg-report-case .ir-content-flow>* ,.esg-report-case .brsr-cycle>* ,.esg-report-case .brsr-sections>*{min-width:0;width:100%;box-sizing:border-box}.esg-report-case .ir-driver-row,.esg-report-case .ir-value-node,.esg-report-case .brsr-cycle article,.esg-report-case .brsr-sections article{overflow-wrap:anywhere;word-break:normal}.esg-report-case .brsr-cycle>i{display:block;transform:rotate(-90deg);height:24px;line-height:24px;text-align:center}}
 
 /* Fit the GRESB rationale panel inside its infographic frame */
 .esg-report-case .report-gresb{height:100%;min-height:0;max-height:100%;box-sizing:border-box;overflow:hidden;justify-content:space-between;gap:clamp(7px,1.2vh,14px)}
@@ -797,6 +798,7 @@
 @media(max-width:1100px) and (min-width:821px){.water-flow-node{padding:10px;min-height:116px}.water-flow-node small{font-size:10px}.water-automation-flow{gap:4px}.water-input-card,.water-engine-card,.water-output-card{padding:8px}.water-sop-flow{gap:4px}.water-sop-flow>div{padding:8px;min-height:100px}.water-roadmap-step{min-height:78px}}
 @media(max-width:820px){.case-graphics.water-case-visual{min-height:300px}.water-graphic-title{font-size:28px}.water-flow-node{min-height:120px}.water-automation-flow{grid-template-columns:minmax(0,1.15fr) auto minmax(0,.78fr) auto minmax(0,1fr)}}
 @media(max-width:540px){.case-graphics.water-case-visual{min-height:0;gap:12px}.water-graphic-title{font-size:25px}.water-stewardship-flow,.water-automation-flow,.water-sop-flow{grid-template-columns:1fr;gap:7px}.water-flow-arrow,.water-sop-flow>i{transform:rotate(90deg);line-height:.8}.water-flow-node,.water-input-card,.water-engine-card,.water-output-card,.water-sop-flow>div{min-height:76px;padding:10px}.water-flow-node{gap:4px}.water-automation-flow>.water-flow-arrow{font-size:19px}.water-automation-result{padding:10px}.water-partner-count{padding:8px 12px}.water-roadmap{gap:6px}.water-roadmap-step{min-height:84px;padding:10px 9px 10px 36px}.water-roadmap-step>span{left:9px;top:10px}.water-roadmap-horizon{gap:5px;padding:9px 7px;font-size:7px}}
+@media(max-width:540px){.water-case-03 .water-partner-count{position:relative;padding:12px 16px 22px;min-height:72px}.water-case-03 .water-partner-count:after{content:"↓";position:absolute;left:50%;bottom:0;transform:translateX(-50%);font:20px/1 var(--sans);color:#a78850}.water-case-03 .water-sop-flow{gap:4px}.water-case-03 .water-sop-flow>i{display:block;height:20px;font-size:0;line-height:20px;text-align:center;transform:none}.water-case-03 .water-sop-flow>i:before{content:"↓";font:20px/20px var(--sans);color:#a78850}.water-case-03 .water-sop-flow>div{min-height:76px}.water-case-03 .water-potential-pair{margin-top:8px}}
 
 /* CSR Advisory case-study infographics */
 .case-graphics.csr-case-visual{box-sizing:border-box;min-width:0;align-self:stretch;justify-content:space-between;gap:clamp(8px,1.15vh,13px);padding:clamp(12px,1.5vw,21px);background:#e8e9df;overflow:hidden}
@@ -856,3 +858,21 @@
  .case-graphics{min-width:0;padding-left:12px;padding-right:12px}
  .professional-experience-note{overflow-wrap:anywhere}
 }
+
+/* Mobile fixes for ESG reporting case study infographics */
+@media(max-width:560px){
+ .esg-report-case .brsr-cycle{grid-template-columns:minmax(0,1fr)!important;gap:7px!important;width:100%;}
+ .esg-report-case .brsr-cycle article{width:100%;min-width:0;min-height:68px;padding:12px 14px;}
+ .esg-report-case .brsr-cycle article b{font-size:15px;line-height:1.35;overflow-wrap:anywhere;}
+ .esg-report-case .brsr-cycle>i{display:block;width:100%;height:22px;line-height:22px;text-align:center;transform:rotate(-90deg)!important;}
+ .esg-report-case .ir-capitals-grid{grid-template-columns:repeat(2,minmax(0,1fr));width:100%;}
+ .esg-report-case .ir-capitals-grid article{display:grid;grid-template-columns:auto minmax(0,1fr);gap:7px;min-width:0;padding:10px 8px;align-items:center;}
+ .esg-report-case .ir-capitals-grid article span{min-width:0;font-size:12px;line-height:1.3;overflow-wrap:anywhere;word-break:normal;}
+}
+@media(max-width:560px){
+ .rating-case-study-page .integration-cascade>i,
+ .esg-report-case .brsr-cycle>i,
+ .water-case-03 .water-partner-count:after,
+ .water-case-03 .water-sop-flow>i{display:none!important;content:none!important}
+}
+
